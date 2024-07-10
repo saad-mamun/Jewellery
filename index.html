@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="assets/favi.png" type="image/x-icon">
+    <title>Best-Jewellery</title>
+</head>
+<body>
+
+    <!-- heading section -->
+
+    <header>
+        <nav class="flex items-center justify-between px-12 h-16">
+            <a class="text-[#fb8b24] text-4xl font-bold"  href="#">HEALET</a>
+            <div class=" dropdown-menu absolute max-lg:bg-[#0c090a] -top-full lg:static py-6 left-0 w-full flex lg:flex-row flex-col items-center lg:justify-between gap-8">
+                <ul class="text-lg font-medium flex lg:flex-row lg:ps-40 flex-col items-center gap-2 lg:text-black text-white ">
+                    <li><a class="border-b-[#fb8b25] hover:border-b-[2px] px-3 " href="#">HOME</a></li>
+                    <li><a class=" border-b-[#fb8b25] hover:border-b-[2px] px-3 "  href="#about">ABOUT</a></li>
+                    <li><a class=" border-b-[#fb8b25] hover:border-b-[2px] px-3 "  href="#">SHOP</a></li>
+                    <li><a class=" border-b-[#fb8b25] hover:border-b-[2px] px-3 "  href="#">BLOG</a></li>
+                </ul>
+
+                <div class="flex lg:flex-row flex-col gap-3 text-lg font-medium">
+                    <button  class="text-[#fb8b25]">Login</button>
+                    <button class="bg-[#fb8b25] text-white py-1 px-5 rounded-lg">Sign Up</button>
+                </div>
+            </div>
+            <div class="toggle-btn lg:hidden">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </div>
+        </nav>
+    </header>
+<!-- home page -->
+
+
+<section>
+    <div class="bg-[url('assets/mainbannarr.jpg')] h-screen  bg-cover bg-no-repeat">
+        <div class="text-white container mx-auto py-52 md:px-0 p-7">
+            <h1 class="font-bold text-7xl font-serif">Best Jewellery <br>
+                <span class="text-[#fb8b25]">Collection</span> </h1>
+                <p class="font-serif tracking-wide py-20 text-lg w-96">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                </p>
+                <button class="border-[#fb8b25] border text-xl text-[#fb8b25] py-2 px-10">
+                    Shop Now
+                </button>
+        </div>
+    </div>
+</section>
+
+<!-- product section -->
+
+<section  class=" py-10">
+    <h1 class="text-3xl font-semibold text-center">
+        LATEST PRODUCTS
+    </h1>
+    <!-- parent div -->
+    <div class=" flex flex-col items-center gap-12 py-10">
+<!-- sub parent -->
+        <div class="flex md:flex-row flex-col items-center gap-12 justify-evenly">
+<!-- child div -->
+            <div class="flex lg:flex-row flex-col items-center gap-12 justify-between">
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring" >
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-40 py-12" src="assets/p1.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Necklace</h2>
+                        <h2 class="text-lg font-medium">Price<span class="text-[#fb8b25]">$200</span></h2>
+                    </div>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-20 h-52 py-12 "  src="assets/p2.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Necklace</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$300</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex lg:flex-row flex-col gap-12">
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-20 py-12 h-52"  src="assets/p3.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Necklace</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$110</span></h2>
+                    </div>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-40 py-12"  src="assets/p4.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Ring</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$52</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex lg:flex-row flex-col gap-12 items-center justify-between">
+            <div class="flex md:flex-row flex-col items-center justify-between gap-12">
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-40 py-12" src="assets/p5.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Ring</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$95</span></h2>
+                    </div>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-40 py-12" src="assets/p6.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Earring</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$70</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex md:flex-row flex-col items-center justify-between gap-12">
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-10 py-12" src="assets/p7.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Earring</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$400</span></h2>
+                    </div>
+                </div>
+                <div class="bg-slate-100 p-5 rounded-xl shadow-lg hover:scale-105 transition-all duration-100 delay-100 hover:ring">
+                    <h1 class="text-2xl font-medium">New</h1>
+                    <img class="w-20 py-12" src="assets/p8.png" alt="">
+                    <div class="flex flex-row gap-12">
+                        <h2 class="text-lg font-medium">Necklace</h2>
+                        <h2 class="text-lg font-medium">Price <span class="text-[#fb8b25]">$450</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="text-center pb-10">
+    <button class="text-lg tracking-wider text-gray-100 py-2 px-12 bg-[#fb8b25] hover:bg-[#fa7c07] rounded-lg">View All Products</button>
+</div>
+
+<!-- about section -->
+ <section id="about">
+    <div>
+        <div class="md:grid grid-cols-12 flex md:flex-row flex-col gap-12 items-center container mx-auto py-16 lg:px-0 md:px-7 px-5">
+            <div class="col-span-6">
+                <img class="rounded-lg" src="assets/about-img.jpg" alt="">
+            </div>
+            <div class="col-span-6">
+                <h1 class="text-5xl font-serif">ABOUT US</h1>
+                <p class="text-lg py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.</p>
+                <button class="py-2 px-10 bg-[#fb8b25] rounded-lg text-white text-lg tracking-wider">Read More</button>
+            </div>
+        </div>
+        <div class="container mx-auto md:grid grid-cols-12 flex md:flex-row flex-col md:gap-12 gap-6 mb-16 lg:px-0 md:px-7 px-5">
+            <div class="col-span-6 relative">
+                <img class="" src="assets/o1.jpg" alt="">
+                <div class="absolute top-5 left-6 text-white">
+                    <h1 class="lg:text-7xl text-4xl font-serif lg:pb-10  md:pb-3 pb-2">Upto <span class="text-[#fb8b25]">15%</span> Off</h1>
+                    <button class="lg:py-2 py-1 lg:px-10 px-5 text-lg bg-[#fb8b25] rounded-lg">Show More</button>
+                </div>
+                <div>
+                    <h1 class="lg:text-5xl md:text-3xl text-xl font-bold font-serif text-[#fb8b25] pt-5">Here have all kind of Jewellery that you want.</h1>
+                </div>
+            </div>
+            <div class="relative col-span-6 flex flex-col gap-8">
+                <div>
+                    <img src="assets/o2.jpg" alt="">
+                    <div class="absolute top-5 left-6 text-white">
+                        <h1 class="lg:text-6xl text-4xl font-serif lg:pb-10  md:pb-3 pb-2">Upto <span class="text-[#fb8b25]">15%</span> Off</h1>
+                        <button class="lg:py-2 py-1 lg:px-10 px-5 border-[2px] border-[#fb8b25] text-lg text-[#fb8b25] rounded-lg">Show More</button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="assets/o3.jpg" alt="">
+                    <div class="absolute top-5 left-6 text-white">
+                        <h1 class="lg:text-6xl text-4xl font-serif lg:pb-10  md:pb-3 pb-2">Upto <span class="text-[#fb8b25]">15%</span> Off</h1>
+                        <button class="lg:py-2 py-1 lg:px-10 px-5 border-[2px] border-[#fb8b25] text-lg text-[#fb8b25] rounded-lg">Show More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+
+ <!-- blog section -->
+
+<section id="blog">
+    <div class="text-center py-10">
+        <h1 class="text-2xl md:text-4xl font-semibold font-serif">LATEST FROM BLOG</h1>
+    </div>
+    <div class="container mx-auto md:grid grid-cols-12 flex md:flex-row flex-col md:w-3/4 gap-12 mb-10 md:px-7 px-5">
+        <div class="col-span-6">
+            <div class="relative pb-16">
+                <img src="assets/b1.jpg" alt="Image">
+                <h1 class="absolute bottom-8 left-6 text-xl font-medium border-white border-[2px] text-white py-3 px-6 bg-gray-900" >14 <br> July</h1>
+            </div>
+            <div class="">
+                <h1 class="text-2xl font-semibold pb-5">
+                    Molestiae ad reiciendis dignissimos
+                </h1>
+                <p class="text-lg font-medium text-gray-700 w-96">
+                    alteration in some form, by injected <br> humour
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <div class="py-5">
+                    <button class="py-2 px-10 border-gray-700 border-[2px] hover:border-gray-700 text-lg font-medium tracking-wide hover:text-white hover:bg-gray-800 transition-all duration-100 delay-100">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-span-6">
+            <div class="relative pb-16">
+                <img src="assets/b2.jpg" alt="Image">
+                <h1 class="absolute bottom-8 left-6 text-xl font-medium border-white border-[2px] text-white py-3 px-6 bg-gray-900" >16 <br> July</h1>
+            </div>
+            <div class="">
+                <h1 class="text-2xl font-semibold pb-5">
+                    Dolores vel maiores voluptatem enim
+                </h1>
+                <p class="text-lg font-medium text-gray-700 w-96">
+                    alteration in some form, by injected <br>
+                     humour
+                    Lorem ipsum dolor sit amet. 
+                </p>
+                <div class="py-5">
+                    <button class="py-2 px-10 border-gray-700 border-[2px] hover:border-gray-700 text-lg font-medium tracking-wide hover:text-white hover:bg-gray-800 transition-all duration-100 delay-100">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Testmonial section -->
+ <section>
+    <div class="py-10">
+        <div class="container mx-auto flex flex-col items-center   md:w-2/4 w-4/5 bg-gray-500 py-5 md:px-16 px-7 rounded-xl">
+            <img class="w-36 rounded-full border-white border-[3px]"  src="assets/client.jpg" alt="">
+            <h1 class="text-2xl font-bold text-[#fb8b25]">Samantha Jonas</h1>
+            <p class="text-center text-gray-100 text-lg font-medium tracking-wide">
+                It is a long established fact that a reader will bedistracted by the readable cIt is a long established factthat a reader will be distracted by the readable c
+            </p>
+        </div>
+    </div>
+ </section>
+
+ <!-- footer section -->
+  <section class="bg-gray-600 py-16 md:px-0 px-10">
+    <div class="container mx-auto flex md:flex-row flex-col  items-center justify-center gap-12 text-center">
+        <div class=" flex flex-row items-center py-6">
+            <input class="px-3 py-3 md:w-52 ring-none bg" type="search" name="search" placeholder="Enter your email">
+            <div class=" py-3 bg-gray-800 px-5 text-white hover:bg-[#fb8b25]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>  
+            </div> 
+        </div>
+        <div class="flex flex-row items-center  gap-3">
+            <div class="border py-3 px-3 hover:bg-[#fb8b25] hover:border-[#fb8b25]">
+                <i class="fa-brands fa-facebook text-white fa-xl"></i>
+            </div>
+            <div class="border px-3 py-3 hover:bg-[#fb8b25] hover:border-[#fb8b25]">
+                <i class="fa-brands fa-twitter text-white fa-xl"></i>
+            </div>
+            <div class="border py-3 px-3 hover:bg-[#fb8b25] hover:border-[#fb8b25]">
+                <i class="fa-brands fa-linkedin text-white fa-xl"></i>
+            </div>
+        </div>           
+    </div>
+    <div>
+        <!-- main footer -->
+        <div class="container mx-auto flex md:flex-row flex-col items-center justify-between gap-10">
+            <div class="flex lg:flex-row  flex-col items-cente justify-between gap-8">
+                <div class="flex flex-col items-start gap-2">
+                    <h1 class="text-2xl font-medium text-white py-6">Menu</h1>
+                    <a class="text-lg text-white font-medium hover:text-[#fb8b25]" href="#">Home</a>
+                    <a class="text-lg text-white font-medium hover:text-[#fb8b25]" href="#">About</a>
+                    <a class="text-lg text-white font-medium hover:text-[#fb8b25]" href="#">Shop</a>
+                    <a class="text-lg text-white font-medium hover:text-[#fb8b25]" href="#">Blog</a>
+                </div>
+                <div class="flex flex-col items-start">
+                    <h1 class="text-2xl text-white font-medium py-6">
+                        Instagram
+                    </h1>
+                    <div class="flex flex-col gap-6">
+                        <div class="flex flex-row items-center gap-6">
+                            <img class="w-20 bg-gray-200  p-4" src="assets/p1.png" alt="">
+                            <p class="text-white font-medium text-lg">
+                                long established fact that a reader
+                            </p>
+                        </div>
+                        <div class="flex flex-row items-center gap-6">
+                            <img class="w-20 h-16 bg-gray-200  p-4" src="assets/p2.png" alt="">
+                            <p class="text-white font-medium text-lg">
+                                long established fact that a reader
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex lg:flex-row flex-col justify-between gap-4">
+                <div>
+                    <h1 class="text-2xl text-white font-medium">About Us</h1>
+                    <p class="text-white text-lg py-6 w-96">
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h1 class="whitespace-nowrap text-2xl font-medium text-white">Contact Us</h1>
+                    <div class="flex flex-row items-center text-lg text-white gap-3 cursor-pointer hover:text-[#fb8b25]">
+                        <i class="fa-solid fa-location-pin"></i>
+                          <p >Location</p>
+                    </div>    
+                    <div class="flex flex-row items-center gap-3 text-white hover:text-[#fb8b25] cursor-pointer text-lg">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="whitespace-nowrap">Call +01 123456789</p>
+                    </div>
+                    <div class="flex flex-row items-center gap-3 text-white text-lg hover:text-[#fb8b25] cursor-pointer">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>mail@domain.com</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+  <div class="bg-gray-700 py-3">
+    <h1 class="text-white text-center md:text-2xl">© 2024 All Rights Reserved. By HTML Design</h1>
+  </div>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
